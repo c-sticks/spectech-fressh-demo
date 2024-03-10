@@ -1,3 +1,3 @@
 function nothing() {
-    console.log("nothing happen");
-  }
+  console.log("nothing happen");
+}
