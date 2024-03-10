@@ -11,14 +11,14 @@
   },
   "lint": {
     "rules": {
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
+      "tags": ["fresh", "recommended"]
     }
   },
   "exclude": [
-    "**/_fresh/*"
+    "**/_fresh/*",
+    "**/tmp*",
+    "**/hoge*",
+    "**/yuukichi*"
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.6.5/",
